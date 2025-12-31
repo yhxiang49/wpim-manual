@@ -7,7 +7,7 @@
 ---
 
 ## 1. 产品概述
-WPIM 是一个基于 WebSocket 与 WebRTC 技术的现代 Web 即时通讯解决方案。采用 SDK + UI Adapter 的分离架构，能够根据用户设备自动加载适配界面（DesktopAdapter），为桌面浏览器提供多窗口（Window-based）交互，提供一致且流畅的通讯体验。
+信贸通网页桌面版本是一个基于 WebSocket 与 WebRTC 技术的现代 Web 即时通讯解决方案。采用 SDK + UI Adapter 的分离架构，能够根据用户设备自动加载适配界面（DesktopAdapter），为桌面浏览器提供多窗口（Window-based）交互，提供一致且流畅的通讯体验。
 
 ### 核心亮点
 - 多端自适应（同一套后端 / SDK，桌面使用 DesktopAdapter）
@@ -137,4 +137,6 @@ app.start(config);
 - 视频黑屏：确保在 HTTPS 环境下运行并检查 STUN/TURN 配置
 - 头像不显示：确认 `config.avatarBaseUrl` 与后端 CORS 设置
 
+## 6. 问题沟通
+- 请访问：https://www.semot.com
 (手册结束)
