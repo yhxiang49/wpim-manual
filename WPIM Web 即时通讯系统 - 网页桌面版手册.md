@@ -131,10 +131,8 @@ app.start(config);
 ### 5.1 本地存储键
 - `im_language`, `im_dark_mode`, `im_font_size`, `im_cfg_sound`, `im_cfg_popup`
 
-### 5.2 依赖库（示例）
-- jQuery、FontAwesome、Fabric.js、html-to-image、SparkMD5 / md5
 
-### 5.3 常见问题
+### 5.2 常见问题
 - 截图不可用：检查 html-to-image/html2canvas，跨域图像会导致问题
 - 视频黑屏：确保在 HTTPS 环境下运行并检查 STUN/TURN 配置
 - 头像不显示：确认 `config.avatarBaseUrl` 与后端 CORS 设置
